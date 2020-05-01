@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">AI</string>
+    <string name="app_full_name" translatable="false">Android Interview</string>
+
+    <string name="activity" translatable="false">Activity</string>
+    <string name="fragment" translatable="false">Fragment</string>
+    <string name="service" translatable="false">Service</string>
+    <string name="broadcast_receiver" translatable="false">Broadcast Receiver</string>
+    <string name="content_provider" translatable="false">Content Provider</string>
+    <string name="data_store" translatable="false">Data Store</string>
+    <string name="bitmap" translatable="false">Bitmap</string>
+    <string name="view" translatable="false">View</string>
+    <string name="animation" translatable="false">Animation</string>
+    <string name="window" translatable="false">Window</string>
+    <string name="layout" translatable="false">Layout</string>
+    <string name="event" translatable="false">Event</string>
+    <string name="thread" translatable="false">Thread</string>
+</resources>

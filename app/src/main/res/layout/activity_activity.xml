@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ActivityActivity">
+
+    <com.hjq.bar.TitleBar
+        android:id="@+id/tb_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backButton="false"
+        app:title="@string/app_full_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_60"
+        android:layout_marginEnd="@dimen/space_60"
+        android:layout_marginBottom="@dimen/space_60"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_normal_lifecycle"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_60"
+            android:text="正常生命周期" />
+
+        <Button
+            android:id="@+id/btn_start_mode"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_60"
+            android:text="启动模式" />
+    </LinearLayout>
+
+</LinearLayout>
