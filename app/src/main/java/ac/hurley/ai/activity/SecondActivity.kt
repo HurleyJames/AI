@@ -33,6 +33,11 @@ class SecondActivity : Activity(){
         LogUtils.i("onContentChanged")
     }
 
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        LogUtils.i("onNewIntent")
+    }
+
     override fun onStart() {
         super.onStart()
         LogUtils.i("onStart")
