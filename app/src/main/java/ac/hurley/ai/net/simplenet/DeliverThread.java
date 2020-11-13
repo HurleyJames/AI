@@ -1,4 +1,4 @@
-package ac.hurley.ai.net;
+package ac.hurley.ai.net.simplenet;
 
 import com.blankj.utilcode.util.FileUtils;
 

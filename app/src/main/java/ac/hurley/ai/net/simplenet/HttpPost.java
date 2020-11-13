@@ -1,6 +1,4 @@
-package ac.hurley.ai.net;
-
-import com.blankj.utilcode.util.FileIOUtils;
+package ac.hurley.ai.net.simplenet;
 
 import java.io.BufferedReader;
 import java.io.IOException;

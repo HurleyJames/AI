@@ -1,4 +1,4 @@
-package ac.hurley.ai.net;
+package ac.hurley.ai.net.simplenet;
 
 import java.io.IOException;
 import java.net.ServerSocket;
